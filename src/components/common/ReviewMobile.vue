@@ -5,7 +5,6 @@ defineProps<{ review: Review }>()
 const getPortraitURL = (tag: string) => {
     return new URL(`../../assets/image-${tag}.jpg`, import.meta.url).href
 }
-
 </script>
 
 <template>

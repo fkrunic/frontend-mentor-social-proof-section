@@ -6,6 +6,9 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx,vue}",
   ],
   theme: {
+    fontFamily: {
+      'league-spartan': 'League Spartan, sans-serif'
+    },
     extend: {},
   },
   plugins: [],

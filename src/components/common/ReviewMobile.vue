@@ -8,14 +8,14 @@ const getPortraitURL = (tag: string) => {
 </script>
 
 <template>
-    <div class="flex flex-col p-4 items-center">
-        <div class="flex flex-row gap-2">
-            <img :src="getPortraitURL(review.portraitTag)" alt="portrait">
+    <div class="flex flex-col gap-4 items-left p-8 bg-very-dark-magenta rounded-lg">
+        <div class="flex flex-row gap-6">
+            <img class="w-10 h-10 rounded-full" :src="getPortraitURL(review.portraitTag)" alt="portrait">
             <div class="flex flex-col">
-                <p class="text-left">{{ review.name }}</p>
-                <p class="text-left">Verified Buyer</p>
+                <p class="text-left font-bold text-white">{{ review.name }}</p>
+                <p class="-mt-1 text-left text-soft-pink">Verified Buyer</p>
             </div>
         </div>
-        <p class="text-left">" {{ review.content }} "</p>
+        <p class="text-left text-light-grayish-magenta">" {{ review.content }} "</p>
     </div>
 </template>

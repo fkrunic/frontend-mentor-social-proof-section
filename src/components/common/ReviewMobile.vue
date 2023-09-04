@@ -16,6 +16,6 @@ const getPortraitURL = (tag: string) => {
                 <p class="-mt-1 text-left text-soft-pink">Verified Buyer</p>
             </div>
         </div>
-        <p class="text-left text-light-grayish-magenta">" {{ review.content }} "</p>
+        <p class="text-left text-light-grayish-magenta">&ldquo; {{ review.content }} &rdquo;</p>
     </div>
 </template>
